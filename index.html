@@ -5,26 +5,26 @@
 
 		<title>InfoBot - Chatbot im ELIZA-Style</title>
 
-		<link href="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/css.css" rel="stylesheet" type="text/css">
+		<link href="resources/css.css" rel="stylesheet" type="text/css">
 
-		<link rel="stylesheet" href="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/style.css">
-		<script src="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/eliza.js"></script><style>@media print {#ghostery-purple-box {display:none !important}}</style>
-		<script src="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/elizaDefaults.js"></script>
+		<link rel="stylesheet" href="resources/style.css">
+		<script src="resources/eliza.js"></script><style>@media print {#ghostery-purple-box {display:none !important}}</style>
+		<script src="resources/elizaDefaults.js"></script>
 
 	</head>
 
 	<body>
 		<div id="wrapper">
-			<img src="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/maskottchen_laufend_gruen.svg" id="maskL" style="display: none;">
-			<img src="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/maskottchen_nachlinks_schwarz.svg" id="maskR" style="display: none;">
-			<img src="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/maskottchen_von-unten.svg" id="maskGuck" style="display: inline;">
+			<img src="resources/maskottchen_laufend_gruen.svg" id="maskL" style="display: none;">
+			<img src="resources/maskottchen_nachlinks_schwarz.svg" id="maskR" style="display: none;">
+			<img src="resources/maskottchen_von-unten.svg" id="maskGuck" style="display: inline;">
 
 
 			<label class="switch" onclick="toggle();">
 				<input type="checkbox" id="toggle">
 				<div class="slider"></div>
 			</label>
-			<h1> <img src="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/maskottchen_orange.svg" style="height:50px"> InfoBot - Chatbot</h1>
+			<h1> <img src="resources/maskottchen_orange.svg" style="height:50px"> InfoBot - Chatbot</h1>
 			<div id="chattools" style="width: 35%;">
 				<div id="test" style="width: 100%;">
 					<h2>Teste den Chatbot</h2>
@@ -45,7 +45,7 @@ LIEBLINGSFACH?
 DENN SO IN DER PAUSE?</textarea>
 					<input id="testnachricht" onkeydown="if (event.keyCode == 13) eliza();" type="text" style="box-sizing: border-box;width:calc(100% - 10px);margin-left:5px;"><br>
 					<button onclick="eliza();" id="sendebutton">Senden</button><button id="resetButton" onclick="resetChat();" style="display: inline;">Regeln neu einlesen</button><br>
-					<img src="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/redend_blau_pink.svg" id="maskRede" style="display: inline;">
+					<img src="resources/redend_blau_pink.svg" id="maskRede" style="display: inline;">
 				</div>
 			</div>
 			<div style="width: calc(65% - 30px); display: block;" id="regelbox">
@@ -425,7 +425,7 @@ schwimmen"
 				</tbody></table>
 			</div>
 			<footer>
-				<a style="float:right" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="InfoBot%20-%20Chatbot%20im%20ELIZA-Style-Dateien/88x31.png"></a>
+				<a style="float:right" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="resources/88x31.png"></a>
 				<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Chatbot</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="http://informatik.tim-ortmann.de/chatbot/" property="cc:attributionName" rel="cc:attributionURL">Tim Ortmann</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.<br>Über diese Lizenz hinausgehende Erlaubnisse können Sie unter <a xmlns:cc="http://creativecommons.org/ns#" href="http://informatik.tim-ortmann.de/chatbot/" rel="cc:morePermissions">http://informatik.tim-ortmann.de/chatbot/</a> erhalten.
 			</footer>
 			<script>setEmptyRules();</script>
