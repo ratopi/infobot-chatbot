@@ -1,0 +1,172 @@
+﻿#maskRede {
+	height: 20vh;
+	position: absolute;
+	right: 20px;
+	bottom: 50px;
+	display:none;
+	z-index: -1;
+}
+#maskGuck {
+	height: 106px;
+	position: absolute;
+	left: 33vw;
+	top: 77px;
+	display: none;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+#maskL {
+	height: 15vw;
+	position: absolute;
+	left: 20px;
+	top: 50vh;
+}
+
+#maskR {
+	height: 50vh;
+	position: absolute;
+	right: 0px;
+	top: 15vh;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  float:right;
+  width: 30px;
+  height: 17px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 17px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(13px);
+}
+
+#sendebutton {
+	float:right;
+	margin-right:5px;
+	z-index:2;
+}
+
+body {
+	box-sizing: border-box;
+	margin:0px;
+	height:100vh;
+	padding:10px;
+	background-image: linear-gradient(red, orange, yellow,lime,aqua,blue,purple);
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+}
+#wrapper{
+	background: rgba(255,255,255,0.7);
+	padding:10px;
+	height: 100%;
+	border:1px solid black;
+	border-radius:5px;
+	position: relative;
+	width:100%;
+	box-sizing: border-box;
+}
+h1 {
+	margin-left:40px;
+}
+
+footer {
+	box-sizing: border-box;
+	clear:both;
+	font-size:small;
+	border-top:1px solid black;
+	padding-top:5px;
+	margin-top:5px;
+	overflow-y: scroll;
+	height:46px;
+	position: absolute;
+	bottom:5px;
+	width: calc(100% - 20px);
+}
+
+#chattools {
+	width:35%;
+	float:right;
+	margin:5px;
+}
+
+#turing {
+	width:100%;
+	border:1px solid black;
+	border-radius:5px;
+	padding:5px;
+}
+
+#test {
+	width:100%;
+	border:1px solid black;
+	border-radius:5px;
+	padding:5px;
+	margin:auto;
+	margin-bottom:5px;
+}
+
+#rules {
+	width:99%;
+	position:relative;
+}
+
+#substi {
+	width:100%;
+}
+
+
+
+
+
+#chattools {
+	width : 100%;
+}
+#regelbox{
+	display : none;
+}
+#test {
+	width : 50%;
+}
+#resetButton{
+	display: none;
+}
